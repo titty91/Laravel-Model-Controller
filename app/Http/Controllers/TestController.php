@@ -16,7 +16,7 @@ class TestController extends Controller
 
     }
 
-    public function movie(){
+    public function movie($id){
 
         $movie = Movie::findorFail($id);
 

@@ -7,12 +7,12 @@
          <p>{{ $movie -> date}}</p>
          <p>{{ $movie -> nationality}}</p>
          <p>{{ $movie -> vote}}</p>
-  
-           
 
+         <a href="{{route('home')}}">home</a>
+
+  
+    
     </main>
-    
-    
     
 
 @endsection

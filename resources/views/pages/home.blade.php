@@ -8,13 +8,7 @@
                     <a href="{{route('movie', $movie -> id)}}">
                     {{$movie -> title}} </a>
                     <br>
-                    {{$movie -> original_title}}
-                    <br>
-                    {{$movie -> nationality}}
-                    <br>
-                    {{$movie -> date}}
-                    <br>
-                    {{$movie -> vote}}  
+     
                     <br>
                 </li>
     
